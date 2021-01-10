@@ -1,0 +1,24 @@
+{% load static %}
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/contact.css' %}">
+</head>
+<body>
+		If you need to ask a question or any help, send email to <a href="mailto:usfpt.admin@gmail.com">usfpt.admin@gmail.com</a>
+
+		<footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="{% url 'home' %}">Back to Main Page</a>
+        </p>
+         <p>USFPT &copy 2020</p>
+      </div>
+    </footer>
+    
+</body>
+</html>
+
+{% endblock %}

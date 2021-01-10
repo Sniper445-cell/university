@@ -1,0 +1,105 @@
+{% load static %}
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	 <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/activity.css' %}">
+</head>
+<body>
+    <main role="main">
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading"><b>USFPT ACTIVITIES</h1>
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <div class="card-body">
+                	<img src="{% static 'images/1.jpg' %}" title="First-Meeting" width="300px" height="250px">
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <div class="card-body">
+                  <img src="{% static 'images/2.jpg' %}" title="First-Meeting" width="300px" height="250px">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <div class="card-body">
+                  <img src="{% static 'images/3.jpg' %}" title="First-Meeting" width="300px" height="250px">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <div class="card-body">
+                    <img src="{% static 'images/4.jpg' %}" title="First-Meeting" width="300px" height="250px">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <div class="card-body">
+                <img src="{% static 'images/5.jpg' %}" title="First-Meeting" width="300px" height="250px">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <div class="card-body">
+                   <img src="{% static 'images/6.jpg' %}" title="First-Meeting" width="300px" height="250px">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <div class="card-body">
+                  <img src="{% static 'images/7.jpg' %}" title="First-Meeting" width="300px" height="250px">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <div class="card-body">
+                  <img src="{% static 'images/8.jpg' %}" title="First-Meeting" width="300px" height="250px">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <div class="card-body">
+                  <img src="{% static 'images/9.jpg' %}" title="First-Meeting" width="300px" height="250px">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;စတင္ခဲ႔သည့္နွစ္မွစျပီးျပဳလုပ္ခဲ႔ေသာ <strong>Activities</strong> မ်ားထဲမွအခ်ိဳ႔ကိုသာ ေဖာ္ျပထားျခင္းျဖစ္သည္။</p>
+
+    </main>
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="{% url 'home' %}">Back to Main Page</a>
+        </p>
+         <p>USFPT &copy 2020</p>
+      </div>
+    </footer>
+</body>
+</html>
+
+{% endblock %}
